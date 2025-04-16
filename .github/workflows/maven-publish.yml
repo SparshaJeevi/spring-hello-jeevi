@@ -27,4 +27,3 @@ jobs:
            mvn -B package --file pom.xml
            mkdir artifacts && cp target/*.jar artifacts
            cd artifacts && ls
-    
